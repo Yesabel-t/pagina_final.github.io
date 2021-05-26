@@ -1,0 +1,157 @@
+
+/* estilos para pagina de proyecto */ 
+/* Yesabel Tenorio */ 
+/* 7 de abril del 2020 */ 
+*, *{
+	margin:0; /*=====  maregenes  ======*/
+	padding: 0; /*=====  relleno  ======*/
+	text-align: center; /*=====  alineacion del texto ======*/
+}
+body{
+	background-color:white; /*=====  color de la pagina  ======*/
+	font-size: 1.0rem; /*=====  tamaño der letra  ======*/
+}
+h1{
+	font-style: italic;/*===== tipo de la letra ======*/
+    color:#56070C;/*===== color vino ======*/
+	font-size: 40pt; /*=====  tamaño de la letra  ======*/
+}
+h2{
+	color: #EABE3F; /*=====  color oro  ======*/
+	font-family: brush script mt; /*===== tipo de la letra ======*/
+	font-size: 25pt; /*=====  tamaño de letra  ======*/
+}
+img{
+	max-width: 300px; /*=====  estilos para las imagenes ======*/
+	
+}
+.contenedor {/*===== clase ======*/
+	width: 90%;
+	margin:0 auto;
+	overflow: auto;
+}
+
+h3 {
+	color: #EABE3F; /*===== color oro ======*/
+	font-style: italic;/*===== tipo de la letra ======*/
+	font-size: 20pt;/*===== tamaño de la letra ======*/
+} 
+h4 {
+	color: #56070C; /*===== color vino ======*/
+	font-style: italic;/*===== tipo de la letra ======*/
+	font-size: 20pt;/*===== tamaño de la letra ======*/
+} 
+h5{
+	color:#56070C;
+	font-style: italic;
+	font-size: 10pt;
+}
+p {
+	font-style: normal;/*===== tipo de la letra ======*/
+	font-size: 11pt;/*===== tamaño de la letra ======*/
+	font-weight: bold;
+}
+ul {
+	list-style-type: square;/*===== tipo de viñeta de la lista ======*/
+}
+pre {
+	font-size: 8pt;/*===== tamaño de la letra======*/
+}
+nav{ /*===== estilos para menu======*/
+	float:left; /*===== posicion del lado izquierdo ======*/
+}
+nav a { /*===== esttilos para menu ======*/
+	color:#56070C;/*===== color oro ======*/
+	text-decoration: none; /*===== para quitar subrayado del texto======*/
+	margin-left: 1rem; /*===== margen izquierdo ======*/
+	font-size:1.2rem; /*===== tamaño de la letra ======*/
+	padding-top: 2rem; /*===== tamaño de relleno ======*/
+	
+}
+a{
+	float:center; /*===== posicicon del lado izquierdo  ======*/
+}
+div { /*===== estilos para div ======*/
+    text-align:center; /*===== alineacion del texto  ======*/
+    width: 50%; 
+    position: relative;/*===== posicion  ======*/
+    left :25%;
+    border-width:6px;/*===== borde  ======*/
+    margin: 40px;/*===== margen  ======*/
+}
+#destacado {
+	color:#56070C; /*===== color vino ======*/
+}
+.video-responsive { /*===== estilos para el video ======*/
+position: relative; 
+padding-bottom: 56.25%; 
+padding-top: 30px; 
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,/*===== estilos para el video ======*/
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.foot{
+	font-size: 1rem;
+	float:center;
+}
+form{/*===== estilos para formulario ======*/
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #EABE3F;
+}
+form input[type="text"], /*===== estilos para text y email ======*/
+form input[type="email"] {
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+
+form input[type="submit"], /*===== estilos para boton de enviar y buscar en el formulario ======*/
+form input[type="reset"]{ /*===== estilos para boton de enviar ======*/
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+} 
+
+a:link { /*===== pseudo-clase para links  ======*/
+  background-color: white; /*===== color de fondo ======*/
+  }
+
+a:visited { /*===== pseudo-clase para links ya visitados======*/
+	
+	border-color:#56070C; /*===== borde color vino ======*/
+  color: #56070C; /*===== texto color vino ======*/
+}
+
+a:hover { /*===== pseudo-clase para cambiar de color con el puntero ======*/
+  background-color: #EABE3F;  /*===== fondo color oro mas oscuro ======*/
+}
+
+pre.elemento::before { /*===== pseudo elemento para insertar una cadena antes del texto ======*/
+   content : "OJO: "; /*===== cadena que aparece antes ======*/
+   color : #d14; /*===== color del texto ======*/
+   }
+
+

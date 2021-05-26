@@ -1,0 +1,108 @@
+<!-- Yesabel Margarita Tenorio Garcia -->
+<!-- Proyecto de página para una organización -->
+<!--Pagina especial para galeria de fotos -->
+<!-- Actividad 9 -->
+<!-- Pseudo-clases y pseudo-elementos -->
+<!-- Galería de fotos -->
+<!--Fecha 04/05/21 -->
+
+<!DOCTYPE HTML> <!-- Declaración de tipo de documento -->
+<html lang="es"> <!-- Inicio -->
+
+	<head>
+		<title>Corporativo Internacional Universitario</title> <!-- Título de la página -->
+		<meta charset="UTF-8">
+        <meta name="title" content="Corporativo Internacional Universitario"> <!-- titulo de la pagina -->
+        
+        <meta name="description" content="La pagina muestra la galeria de fotos de una escuela privada"> <!-- descripcion de la pagina -->
+        
+        <link href="../CSS/estilos gale.css" rel="stylesheet" type="text/css"/> <!-- estilo adjunto -->
+	</head>
+
+
+	<body>
+		    <h1>Corporativo Internacional Universitario</h1>
+		    <img src= "../imagenes/logo.png" alt="logo de la institución"> <!-- Imagen del logo de la institución con alt para describir la imagen si no aparece-->
+		    <h2>Nos especializamos en tí!</h2>
+		    <hr>
+		    <br>
+		    
+		    <p>Da clic en cualquier imagen para ampliar</p>
+		    <br>
+
+		    <ul class="galeria">
+		    	<li><a href="#img1"><img src="../imagenes/titulo.jpg"></a></li>
+		    	<li><a href="#img2"><img src="../imagenes/titulo2.jpg"></a></li>
+		    	<li><a href="#img3"><img src="../imagenes/titulo3.jpg"></a></li>
+		    	<li><a href="#img4"><img src="../imagenes/graduacion.jpg"></a></li>
+		    	<li><a href="#img4"><img src="../imagenes/graduacion2.jpg"></a></li>
+		    	<li><a href="#img4"><img src="../imagenes/campus.jpg"></a></li>
+	       </ul>
+
+	<div class="modal" id="img1">
+		<h3>Entrega de titulos de licenciatura</h3>
+		<div class="imagen">
+			<a href="#img4"></a>
+			<a href="#img2"><img src="../imagenes/titulo.jpg"></a>
+			<a href="#img2">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img2">
+		<h3>Entrega de titulos de licenciatura</h3>
+		<div class="imagen">
+			<a href="#img1"></a>
+			<a href="#img3"><img src="../imagenes/titulo2.jpg"></a>
+			<a href="#img3">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img3">
+		<h3>Entrega de titulos de licenciatura</h3>
+		<div class="imagen">
+			<a href="#img2"></a>
+			<a href="#img4"><img src="../imagenes/titulo3.jpg"></a>
+			<a href="#img4">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img4">
+		<h3>Ceremonia de graduacion</h3>
+		<div class="imagen">
+			<a href="#img3"></a>
+			<a href="#img5"><img src="../imagenes/graduacion.jpg"></a>
+			<a href="#img5">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+		<div class="modal" id="img5">
+		<h3>Ceremonia de graduacion</h3>
+		<div class="imagen">
+			<a href="#img4"></a>
+			<a href="#img6"><img src="../imagenes/graduacion2.jpg"></a>
+			<a href="#img6">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+		<div class="modal" id="img6">
+		<h3>Campus atlacomulco</h3>
+		<div class="imagen">
+			<a href="#img5"></a>
+			<a href="#img1"><img src="../imagenes/campus.jpg"></a>
+			<a href="#img1">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+
+
+
+
+
+	</body>
+</html>

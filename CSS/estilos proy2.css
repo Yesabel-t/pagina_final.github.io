@@ -1,0 +1,53 @@
+
+/* estilos para pagina de proyecto */ 
+/* Yesabel Tenorio */ 
+/* 7 de abril del 2020 */ 
+
+
+*, *{
+	margin:0; /*=====  maregenes  ======*/
+	padding: 0; /*=====  relleno  ======*/
+	text-align: center; /*=====  alineacion del texto ======*/
+}
+body{
+	background-color:white; /*=====  color de la pagina  ======*/
+	font-size: 1.0rem; /*=====  tamaño der letra  ======*/
+	text-align: center;
+}
+		
+h1 {font-style: italic;/*=====  Estilos para encabezado  ======*/
+			    color:#56070C;
+			    font-size: 40pt;
+} 
+h2 {
+	color: #EABE3F; /*=====  Estilos para encabezado  ======*/
+	font-family: brush script mt;
+	font-size: 25pt;
+}
+table {
+	border: 1px solid #000;/*=====  Estilos para tabla ======*/
+	border-collapse: separate;
+	text-align: center;
+	table-layout: center;
+}
+th{
+	background :#EABE3F;/*=====  Estilos para tabla ======*/
+	border: 1px solid #56070C;
+	text-align: center;
+}
+td {
+	border: 1px solid #56070C;/*=====  Estilos para tabla ======*/
+	text-align: center;
+}
+img{/*=====  Estilos para imagenes======*/
+	max-width: 250px
+}
+.tabla{
+	 width: 50%;
+    margin: auto;/*=====  para centrar tabla ======*/
+
+}
+.foot{
+	font-size: 1rem;
+	float:center;
+}
